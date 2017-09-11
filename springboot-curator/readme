@@ -1,0 +1,11 @@
+/heapdump 这个路径主要是用来统计系统的状况，默认里面目前只有系统状况和磁盘状况
+/health 这个路径主要是用来统计系统的状况，默认里面目前只有系统状况和磁盘状况
+/info
+/beans 可以查看到目前Spring里面加载的所有bean，在生产中感觉没有什么用处，可能在开发中会有一些帮助，方便查看bean是否被扫描
+/env 里面包含了目前的环境变量，包括application.yaml配置的属性，以及systemProperties都能够拿到
+/dump 里面包含了目前线程的一个快照信息
+/mappings 里面包含了Controller的所有mapping信息，开发中新手经常会遇到访问不到controller的情况，可以根据这个查看是否被扫描
+/trace trace目前主要是监控http请求的,监控每个请求的状况
+/autoconfig 显示当前SpringBoot，已经自动配置的的属性
+/metrics 是整个监控里面的核心信息
+
