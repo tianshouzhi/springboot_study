@@ -17,12 +17,25 @@
         <module>springboot-web</module>
         <module>springboot-liquibase</module>
         <module>springboot-elasticsearch</module>
-        <module>springboot-mybatis</module>
         <module>springboot-mail</module>
         <module>springboot-jpa</module>
         <module>springboot-log</module>
         <module>springboot-spring-security</module>
         <module>springboot-custom-starter</module>
         <module>springboot-static</module>
+        <module>sprintboot-mybatis</module>
+        <module>springboot-websocket</module>
     </modules>
+
+    <dependencyManagement>
+        <dependencies>
+            <dependency>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-starter-parent</artifactId>
+                <version>1.5.9.RELEASE</version>
+                <type>pom</type>
+                <scope>import</scope>
+            </dependency>
+        </dependencies>
+    </dependencyManagement>
 </project>
