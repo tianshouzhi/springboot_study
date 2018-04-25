@@ -14,7 +14,6 @@
         <module>springboot-metrics</module>
         <module>springboot-test</module>
         <module>springboot-freemarker</module>
-        <module>springboot-web</module>
         <module>springboot-liquibase</module>
         <module>springboot-elasticsearch</module>
         <module>springboot-mail</module>
@@ -25,6 +24,7 @@
         <module>springboot-static</module>
         <module>sprintboot-mybatis</module>
         <module>springboot-websocket</module>
+        <module>springboot-deploy</module>
     </modules>
 
     <dependencyManagement>
